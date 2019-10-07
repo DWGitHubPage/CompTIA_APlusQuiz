@@ -39,11 +39,6 @@ def run_quiz(questions):
                print('\nIncorrect.')
                time.sleep(1)
 
-
      print('\nYou got', score, 'out of', len(questions))
 
 run_quiz(questions)
-
-
-
-
