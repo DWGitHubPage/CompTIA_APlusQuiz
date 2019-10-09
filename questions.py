@@ -556,334 +556,482 @@ port to reach an IP address on the LAN?
 (d) Port forwarding.
 
 Answer: ''',
-"'\n'
-
-"Which of these choices would provide better security on a Wi-Fi router?\n"
-
-"\n(a) WPA2\n"
-"\n(b) WPA\n"
-"\n(c) WAP\n"
-"\n(d) SecureDNS\n"
-"\nAnswer: ",
-"\n"
-
-"\n"
-"\n(a) \n"
-"\n(b) \n"
-"\n(c) \n"
-"\n(d) \n"
-"\nAnswer: ",
-"\n"
-
-"What broad term describes the process of creating a road map for current\n"
-"& future techs to make changes or repairs over time for an organization?\n"
-
-"\n(a) Network documentation\n"
-"\n(b) Management documentation\n"
-"\n(c) Change management\n"
-"\n(d) Change documentation\n"
-"\nAnswer: ",
-"\n"
-
-"What broad term describes the process of enabling organizations to\n"
-"implement changes to IT infrastructure in a safe & cost-effective manner?\n"
-
-"\n(a) Management documentation\n"
-"\n(b) Change documentation\n"
-"\n(c) Network documentation\n"
-"\n(d) Change management\n"
-"\nAnswer: ",
-"\n"
-
-"Which device protects computing devices from blackout & power dips?\n"
-
-"\n(a) GPS\n"
-"\n(b) Surge suppressor\n"
-"\n(c) UPS (Uninterruptible Power Supply)\n"
-"\n(d) Surge protector\n"
-"\nAnswer: ",
-"\n"
-
-"Which Microsoft Windows OS utility can be used to view basic information\n"
-"about computer's BIOS?\n"
-
-"\n(a) SERVICES.MSC\n"
-"\n(b) Control Panel\n"
-"\n(c) WINVER.EXE\n"
-"\n(d) MISINFO32.EXE\n"
-"\nAnswer: ",
-"\n"
-
-"Power failure during BIOS upgrade can be the cause of irreversible\n"
-"damage to the computer system.\n"
-
-"\n(a) True\n"
-"\n(b) False\n"
-"\nAnswer: ",
-"\n"
-
-"After a normal system shutdown, when the computer is turned off, contents\n"
-"of the memory used to store BIOS settings are:\n"
-
-"\n(a) Retained\n"
-"\n(b) Erased\n"
-"\n(c) Stored in a page file\n"
-"\n(d) Saved on a hard drive\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the acronyms listed refers to a series of basic hardware\n"
-"diagnostic tests performed by the startup BIOS after the computer is\n"
-"powered on?\n"
-
-"\n(a) POTS\n"
-"\n(b) POST\n"
-"\n(c) Qos\n"
-"\n(d) IDE\n"
-"\nAnswer: ",
-"\n"
-
-"After replacing a modular hardware component inside a computer case, the\n"
-"updated information about specific parameters of the new device can be?\n"
-
-
-"\n(a) Secondary storage and System BIOS\n"
-"\n(b) System BIOS and Flash memory\n"
-"\n(c) CMOS RAM and ROM\n"
-"\n(d) Flash memory and CMOS RAM\n"
-"\nAnswer: ",
-"\n"
-
-"In order to work, an integrated component such as Network Interface Card\n"
-"(NIC) on a newly assembled computer system may need to be first:\n"
-
-"\n(a) Checked against the Hardware Compatibility List (HCL)\n"
-"\n(b) Enabled in the advanced BIOS settings menu\n"
-"\n(c) Enabled in Windows Control Panel\n"
-"\n(d) Updated with the latest driver in Device Manager\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following answers to a firmware interface designed as a\n"
-"replacement for BIOS?\n"
-
-"\n(a) USMT\n"
-"\n(b) ACPI\n"
-"\n(c) UEFI\n"
-"\n(d) CMOS\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following statements is true?\n"
-
-"\n(a) A common security measure is to store BIOS on a non-rewritable\n"
-"memory chip.\n"
-"\n(b) The process of BIOS update can be aborted & resumed later.\n"
-"\n(c) Aborted BIOS update could render the computer unusable.\n"
-"\n(d) Aborted BIOS update can be resumed by the transaction recovery system.\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following terms refers to a technology that allows for storing\n"
-"passwords, certificates, or encryption keys in a hardware chip?\n"
-
-"\n(a) User Account Control (UAC)\n"
-"\n(b) Access Control List (ACL)\n"
-"\n(c) Encrypting File System\n"
-"\n(d) Trusted Platform Module (TPM)\n"
-"\nAnswer: ",
-"\n"
-
-"A UEFI functionality designed to prevent the loading of malware &\n"
-"unauthorized OS's during system start-up is known as:\n"
-
-"\n(a) Bitlocker\n"
-"\n(b) Kerberos\n"
-"\n(c) Secure boot\n"
-"\n(d) LoJack\n"
-"\nAnswer: ",
-"\n"
-
-"What is the port number of DNS (Domain Name System?\n"
-
-"\n(a) 60\n"
-"\n(b) 53\n"
-"\n(c) 45\n"
-"\n(d) 62\n"
-"\nAnswer: ",
-"\n"
-
-"What is the number of contact pins used in SDR SDRAM modules?\n"
-
-"\n(a) 184\n"
-"\n(b) 240\n"
-"\n(c) 144\n"
-"\n(d) 168\n"
-"\nAnswer: ",
-"\n"
-
-"A single Data Rate Synchronous Dynamic Random Access Memory (SDR SDRAM)\n"
-"can read/write one word of data per clock cycle.\n"
-
-"\n(a) True\n"
-"\n(b) False\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the memory types listed below are designed to store permanent data\n"
-"that cannot be changed?\n"
-
-"\n(a) PROM and EEPROM\n"
-"\n(b) ROM and RAM\n"
-"\n(c) ROM and PROM\n"
-"\n(d) EPROM and EEPROM\n"
-"\nAnswer: ",
-"\n"
-
-"What is the name of the most common connector type used for providing power\n"
-"to various hardware components inside the computer case?\n"
-
-"\n(a) Molex\n"
-"\n(b) RJ-45\n"
-"\n(c) USB\n"
-"\n(d) BNC\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the answers listed below refers to the industry name used for\n"
-"DDR3-1333 modules?\n"
-
-"\n(a) PC3-6400\n"
-"\n(b) PC3-12800\n"
-"\n(c) PC3-8500\n"
-"\n(d) PC3-10600\n"
-"\nAnswer: ",
-"\n"
-
-"What is the maximum amount of data that can be transferred each second by a\n"
-"DDR3-1600 module?\n"
-
-"\n(a) 12800 MB/s\n"
-"\n(b) 8533 MB/s\n"
-"\n(c) 10667 MB/s\n"
-"\n(d) 6400 MB/s\n"
-"\nAnswer: ",
-"\n"
-
-"What is the most common memory module form factor type used in laptop\n"
-"computers?\n"
-
-"\n(a) C-RIMM\n"
-"\n(b) SO-DIMM\n"
-"\n(c) MicroDIMM\n"
-"\n(d) DIMM\n"
-"\nAnswer: ",
-"\n"
-
-"What is the maximum amount of bytes that a 32-bit system can address?\n"
-
-"\n(a) 32 GB\n"
-"\n(b) 4 GB\n"
-"\n(c) 12 GB\n"
-"\n(d) 2 GB\n"
-"\nAnswer: ",
-"\n"
-
-"How much memory can a 64-bit register theoretically reference?\n"
-
-"\n(a) 16 GB\n"
-"\n(b) 64 GB\n"
-"\n(c) 2 EB\n"
-"\n(d) 16 EB\n"
-"\nAnswer: ",
-"\n"
-
-"What is a KVM (Keyboard, Video, Mouse) switch?\n"
-
-"\n(a) A USB connector for a keyboard, video monitor, or mouse.\n"
-"\n(b) A switch to turn on/off a keyboard, video, or mouse.\n"
-"\n(c) A hardware device that allows a user to control multiple computers\n"
-"from one or more sets of keyboards, video monitors, & mice.\n"
-"\n(d) An extra smart card for a keyboard, video monitor, or mouse.\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following port numbers are reserved for NetBIOS services?\n"
-
-"\n(a) 137, 138, 139\n"
-"\n(b) 136, 137, 138, 139\n"
-"\n(c) 134, 135, 136\n"
-"\n(d) 20, 21, 23, 25\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the port numbers listed below is used by an Apple-proprietary\n"
-"file sharing protocol?\n"
-
-"\n(a) 445\n"
-"\n(b) 548\n"
-"\n(c) 443\n"
-"\n(d) 110\n"
-"\nAnswer: ",
-"\n"
-
-"What is the function of POP3?\n"
-
-"\n(a) Sending email messages\n"
-"\n(b) File Exchange\n"
-"\n(c) Retrieving email messages from a mail server\n"
-"\n(d) Sending and Retrieving email messages from a mail server\n"
-"\nAnswer: ",
-"\n"
-
-"IMAP4 is used for?\n"
-
-"\n(a) Retrieving email messages from a mail server\n"
-"\n(b) Sending email messages\n"
-"\n(c) Sending and retrieving email messages\n"
-"\n(d) Sending email messages with encryption\n"
-"\nAnswer: ",
-"\n"
-
-"What program does Microsoft include with Windows to partition & format a drive?\n"
-
-"\n(a) Disk Management console\n"
-"\n(b) Format\n"
-"\n(c) System Commander\n"
-"\n(d) Disk Administrator console\n"
-"\nAnswer: ",
-"\n"
-
-"Which storage option in Windows 8 or later offers the best mix of resiliency &\n"
-"performance with two drives?\n"
-
-"\n(a) Simple space\n"
-"\n(b) Parity space\n"
-"\n(c) Three-way mirror space\n"
-"\n(d) Two-way mirror space\n"
-"\nAnswer: ",
-"\n"
-
-"Which configuration requires three same-sized volumes?\n"
-
-"\n(a) RAID 0\n"
-"\n(b) Striped volume\n"
-"\n(c) RAID 5\n"
-"\n(d) Spanned volume\n"
-"\nAnswer: ",
-"\n"
-
-"How much data can a dvd hold?\n"
-
-"\n(a) 2 GB\n"
-"\n(b) 4.7 GB\n"
-"\n(c) 16 GB\n"
-"\n(d) 500 MB\n"
-"\nAnswer: ",
-"\n"
+'\n'
+
+# 37.     
+'''Which of these choices would provide better security on a Wi-Fi router?
+
+(a) WPA2.
+
+(b) WPA.
+
+(c) WAP.
+
+(d) SecureDNS.
+
+Answer: ''',
+'\n'
+
+# 38.
+'''What broad term describes the process of creating a road map for current
+& future techs to make changes or repairs over time for an organization?
+
+(a) Network documentation.
+
+(b) Management documentation.
+
+(c) Change management.
+
+(d) Change documentation.
+
+Answer: ''',
+'\n'
+
+# 39.     
+'''What broad term describes the process of enabling organizations to
+implement changes to IT infrastructure in a safe & cost-effective manner?
+
+(a) Management documentation.
+
+(b) Change documentation.
+
+(c) Network documentation.
+
+(d) Change management.
+
+Answer: ''',
+'\n'
+
+# 40.     
+'''Which device protects computing devices from blackout & power dips?
+
+(a) GPS.
+
+(b) Surge suppressor.
+
+(c) UPS (Uninterruptible Power Supply).
+
+(d) Surge protector.
+
+Answer: ''',
+'\n'
+
+# 41.     
+'''Which Microsoft Windows OS utility can be used to view basic information
+about computer's BIOS?
+
+(a) SERVICES.MSC.
+
+(b) Control Panel.
+
+(c) WINVER.EXE.
+
+(d) MISINFO32.EXE.
+
+Answer: ''',
+'\n'
+
+# 42.     
+'''Power failure during BIOS upgrade can be the cause of irreversible damage 
+to the computer system.
+
+(a) True.
+
+(b) False.
+
+Answer: ''',
+'\n'
+
+# 43.     
+'''After a normal system shutdown, when the computer is turned off, contents of 
+the memory used to store BIOS settings are:
+
+(a) Retained.
+
+(b) Erased.
+
+(c) Stored in a page file.
+
+(d) Saved on a hard drive.
+
+Answer: ''',
+'\n'
+
+# 44.     
+'''Which of the acronyms listed refers to a series of basic hardware diagnostic 
+tests performed by the startup BIOS after the computer is powered on?\n"
+
+(a) POTS.
+
+(b) POST.
+
+(c) QoS.
+
+(d) IDE.
+
+Answer: ''',
+'\n'
+
+# 45.     
+'''After replacing a modular hardware component inside a computer case, the
+updated information about specific parameters of the new device can be?
+
+(a) Secondary storage and System BIOS.
+
+(b) System BIOS and Flash memory.
+
+(c) CMOS RAM and ROM.
+
+(d) Flash memory and CMOS RAM.
+
+Answer: ''',
+'\n'
+
+# 46.     
+'''In order to work, an integrated component such as Network Interface Card (NIC) 
+on a newly assembled computer system may need to be first:
+
+(a) Checked against the Hardware Compatibility List (HCL).
+
+(b) Enabled in the advanced BIOS settings menu.
+
+(c) Enabled in Windows Control Panel.
+
+(d) Updated with the latest driver in Device Manager.
+
+Answer: ''',
+'\n'
+
+# 47.     
+'''Which of the following answers to a firmware interface designed as a replacement 
+for BIOS?
+
+(a) USMT.
+
+(b) ACPI.
+
+(c) UEFI.
+
+(d) CMOS.
+
+Answer: ''',
+'\n'
+
+# 48.     
+'''Which of the following statements is true?
+
+(a) A common security measure is to store BIOS on a non-rewritable memory chip.
+
+(b) The process of BIOS update can be aborted & resumed later.
+
+(c) Aborted BIOS update could render the computer unusable.
+
+(d) Aborted BIOS update can be resumed by the transaction recovery system.
+
+Answer: ''',
+'\n'
+
+# 49.     
+'''Which of the following terms refers to a technology that allows for storing
+passwords, certificates, or encryption keys in a hardware chip?
+
+(a) User Account Control (UAC).
+
+(b) Access Control List (ACL).
+
+(c) Encrypting File System.
+
+(d) Trusted Platform Module (TPM).
+
+Answer: ''',
+'\n'
+
+# 50.     
+'''A UEFI functionality designed to prevent the loading of malware &
+unauthorized OS's during system start-up is known as:
+
+(a) Bitlocker.
+
+(b) Kerberos.
+
+(c) Secure boot.
+
+(d) LoJack.
+
+Answer: ''',
+'\n'
+
+# 51.     
+'''What is the port number of DNS (Domain Name System?
+
+(a) 60.
+
+(b) 53.
+
+(c) 45.
+
+(d) 62.
+
+Answer: ''',
+'\n'
+
+# 52.     
+'''What is the number of contact pins used in SDR SDRAM modules?
+
+(a) 184.
+
+(b) 240.
+
+(c) 144.
+
+(d) 168.
+
+Answer: ''',
+'\n'
+
+# 53.     
+'''A single Data Rate Synchronous Dynamic Random Access Memory (SDR SDRAM)
+can read/write one word of data per clock cycle.
+
+(a) True.
+
+(b) False.
+
+Answer: ''',
+'\n'
+
+# 54.     
+'''Which of the memory types listed below are designed to store permanent data
+that cannot be changed?
+
+(a) PROM and EEPROM.
+
+(b) ROM and RAM.
+
+(c) ROM and PROM.
+
+(d) EPROM and EEPROM.
+
+Answer: ''',
+'\n'
+
+# 55.     
+'''What is the name of the most common connector type used for providing power to 
+various hardware components inside the computer case?
+
+(a) Molex.
+
+(b) RJ-45.
+
+(c) USB.
+
+(d) BNC.
+
+Answer: ''',
+'\n'
+
+# 56.     
+'''Which of the answers listed below refers to the industry name used for
+DDR3-1333 modules?
+
+(a) PC3-6400.
+
+(b) PC3-12800.
+
+(c) PC3-8500.
+
+(d) PC3-10600.
+
+Answer: ''',
+'\n'
+
+# 57.     
+'''What is the maximum amount of data that can be transferred each second by a
+DDR3-1600 module?
+
+(a) 12800 MB's.
+
+(b) 8533 MB's.
+
+(c) 10667 MB's.
+
+(d) 6400 MB's.
+
+Answer: ''',
+'\n'
+
+# 58.     
+'''What is the most common memory module form factor type used in laptop computers?
+
+(a) C-RIMM.
+
+(b) SO-DIMM.
+
+(c) MicroDIMM.
+
+(d) DIMM.
+
+Answer: ''',
+'\n'
+
+# 59.     
+'''What is the maximum amount of bytes that a 32-bit system can address?
+
+(a) 32 GB.
+
+(b) 4 GB.
+
+(c) 12 GB.
+
+(d) 2 GB.
+
+Answer: ''',
+'\n'
+
+# 60.     
+'''How much memory can a 64-bit register theoretically reference?
+
+(a) 16 GB.
+
+(b) 64 GB.
+
+(c) 2 EB.
+
+(d) 16 EB.
+
+Answer: ''',
+'\n'
+
+# 61.     
+'''What is a KVM (Keyboard, Video, Mouse) switch?
+
+(a) A USB connector for a keyboard, video monitor, or mouse.
+
+(b) A switch to turn on/off a keyboard, video, or mouse.
+
+(c) A hardware device that allows a user to control multiple computers from 
+one or more sets of keyboards, video monitors, & mice.
+
+(d) An extra smart card for a keyboard, video monitor, or mouse.
+
+Answer: ''',
+'\n'
+
+# 62.     
+'''Which of the following port numbers are reserved for NetBIOS services?
+
+(a) 137, 138, 139.
+
+(b) 136, 137, 138, 139.
+
+(c) 134, 135, 136.
+
+(d) 20, 21, 23, 25.
+
+Answer: ''',
+'\n'
+
+# 63.     
+'''Which of the port numbers listed below is used by an Apple-proprietary
+file sharing protocol?
+
+(a) 445.
+
+(b) 548.
+
+(c) 443.
+
+(d) 110.
+
+Answer: ''',
+'\n'
+
+# 64.     
+'''What is the function of POP3?
+
+(a) Sending email messages.
+
+(b) File Exchange.
+
+(c) Retrieving email messages from a mail server.
+
+(d) Sending and Retrieving email messages from a mail server.
+
+Answer: ''',
+'\n'
+
+# 65.     
+'''IMAP4 is used for?
+
+(a) Retrieving email messages from a mail server.
+
+(b) Sending email messages.
+
+(c) Sending and retrieving email messages.
+
+(d) Sending email messages with encryption.
+
+Answer: ''',
+'\n'
+
+# 66.     
+'''What program does Microsoft include with Windows to partition & format a drive?
+
+(a) Disk Management console.
+
+(b) Format.
+
+(c) System Commander.
+
+(d) Disk Administrator console.
+
+Answer: ''',
+'\n'
+
+# 67.     
+'''Which storage option in Windows 8 or later offers the best mix of resiliency &
+performance with two drives?
+
+(a) Simple space.
+
+(b) Parity space.
+
+(c) Three-way mirror space.
+
+(d) Two-way mirror space.
+
+Answer: ''',
+'\n'
+
+# 68.     
+'''Which configuration requires three same-sized volumes?
+
+(a) RAID 0.
+
+(b) Striped volume.
+
+(c) RAID 5.
+
+(d) Spanned volume.
+
+Answer: ''',
+'\n'
+
+# 69.     
+'''How much data can a dvd hold?
+
+(a) 2 GB.
+
+(b) 4.7 GB.
+
+(c) 16 GB.
+
+(d) 500 MB.
+
+Answer: ''',
+'\n'
 
 ]
-
 
 questions = [
      Question(question_prompts[0], 'a'),
@@ -957,5 +1105,3 @@ questions = [
      Question(question_prompts[68], 'c'),
      Question(question_prompts[69], 'b'),
 ]
-
-
