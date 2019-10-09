@@ -24,8 +24,7 @@ question_prompts = [
 
 Answer: ''',
 "\n"
-
-     
+    
 # 1.
 '''What is the port number of POP3?
 
@@ -39,8 +38,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+  
 # 2.
 '''How long is an eSATA cable?
 
@@ -54,7 +52,6 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
 
 # 3.     
 '''A UEFI functionality designed to prevent the loading of malware & unauthorized
@@ -71,7 +68,6 @@ OSs during system start-up is known as:
 Answer: ''',
 '\n'
 
-
 # 4.
 '''Which of the following terms refers to a technology that allows for storing
 passwords, certificates, or encription keys in a hardware chip?
@@ -86,8 +82,7 @@ passwords, certificates, or encription keys in a hardware chip?
 
 Answer: ''',
 '\n'
-
-     
+    
 # 5.
 '''What is LoJack?
 
@@ -101,8 +96,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-  
-     
+       
 # 6. 
 '''Which type of password provides the highest level of permissions in BIOS?
 
@@ -116,8 +110,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+   
 # 7.     
 '''Which of the protocols listed below is used for automated discovery of networked
 services on Local Area Networks (LAN's)?
@@ -132,7 +125,6 @@ services on Local Area Networks (LAN's)?
 
 Answer: ''',
 '\n'
-
      
 # 8.     
 '''Which of the protocols listed below was designed as a secure replacement for
@@ -148,8 +140,7 @@ Telnet?
 
 Answer: ''',
 '\n'
-
-     
+    
 # 9.     
 '''Which of the following wireless encryption schemes offers the highest level
 of protection?
@@ -164,7 +155,6 @@ of protection?
 
 Answer: ''',
 '\n'
-
      
 # 10     
 '''What is the most common motherboard type used in desktop PC's?
@@ -179,8 +169,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+   
 # 11.     
 '''What is the port number of RDP (Remote Desktop Protocol)?
 
@@ -194,8 +183,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+    
 # 12     
 '''Which of the answers listed below refers to a VIA-proprietary low-power
 consumption SFF type motherboard known for industrial and embedded PC
@@ -213,7 +201,6 @@ applications?
 
 Answer: ''',
 '\n'
-
      
 # 13.     
 '''Peripheral Component Interconnect (PCI) is an example of a parallel
@@ -227,8 +214,7 @@ motherboard inside the computer case.
 
 Answer: ''',
 '\n'
-
-     
+  
 # 14.     
 '''Which of the following correctly identifies the four possible entries in a
 file allocation table?
@@ -245,8 +231,7 @@ clusters, number of available clusters.
 
 Answer: ''',
 '\n'
-
-     
+    
 # 15.     
 '''In PCIe architecture, a single full-duplex point-to-point serial communication 
 path consisting of two pairs of wires (where one pair is used for transmitting 
@@ -262,8 +247,7 @@ data and the other pair for receiving data) is known as:
 
 Answer: ''',
 '\n'
-
-     
+    
 # 16.     
 '''Which of the following integrated circuit types defines the core functionality 
 and capabilities of a motherboard?
@@ -280,8 +264,7 @@ and capabilities of a motherboard?
 
 Answer: ''',
 '\n'
-
-     
+    
 # 17.     
 '''ExpressCards connect to which two buses?
 
@@ -295,7 +278,6 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
      
 # 18.     
 '''Which of the following display types will you commonly find on a portable 
@@ -311,7 +293,6 @@ PC today?
 
 Answer: ''',
 '\n'
-
      
 # 19.     
 '''What type of battery do manufacturers use today for portables?
@@ -326,7 +307,6 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
      
 # 20.     
 '''Which two width's do ExpressCards come in?
@@ -341,7 +321,6 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
      
 # 21.     
 '''Powerful hypervisors like ESXi are often booted from?
@@ -356,8 +335,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+    
 # 22.     
 '''Which two features lets you save a VM's state so you can quickly restore
 to that point?
@@ -372,8 +350,7 @@ to that point?
 
 Answer: ''',
 '\n'
-
-     
+ 
 # 23.     
 '''Which mobile OS enables developers to customize the user experience
 "without restrictions?
@@ -388,7 +365,6 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
      
 # 24.
 '''Which mobile device screen technology uses no backlight?
@@ -403,7 +379,6 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
      
 # 25.     
 '''Using your stored credit card information on your smartphone used which technology 
@@ -419,8 +394,7 @@ to make the transaction?
 
 Answer: ''',
 '\n'
-
-     
+ 
 # 26.     
 '''Which of the following is a 15-digit number used to uniquly identify a mobile 
 device that connects to a cellular network?
@@ -435,7 +409,6 @@ device that connects to a cellular network?
 
 Answer: ''',
 '\n'
-
      
 # 27.     
 '''Which mobile operating system requires a third-party software firewall?
@@ -450,8 +423,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+   
 # 28.     
 '''What do app scanners do?
 
@@ -467,7 +439,6 @@ security risks.
 
 Answer: ''',
 '\n'
-
      
 # 29.
 '''Best way to protect data on a removable media card?
@@ -482,8 +453,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+  
 # 30.     
 '''Jailbreaking an iPhone gives access to?
 
@@ -499,8 +469,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+    
 # 31.
 '''What mechanism is used by most inkjet printers to push ink onto
 "the printer?
@@ -516,7 +485,6 @@ Answer: ''',
 Answer: ''',
 '\n'
 
-
 # 32.     
 '''With a laser printer, what creates the image on the photosensitive
 "drum?
@@ -531,7 +499,6 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
      
 # 33.
 '''The printer prints a test page with no problem, but it makes a mess
@@ -547,7 +514,6 @@ when trying to print multiple pages. What's most likely the problem?
 
 Answer: ''',
 '\n'
-
      
 # 34.     
 '''Which tool would help you determine why a print job didn't print?
@@ -562,8 +528,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+    
 # 35.     
 '''Which of the following might offer good hardware authentication?
 
@@ -577,8 +542,7 @@ Answer: ''',
 
 Answer: ''',
 '\n'
-
-     
+    
 # 36.     
 '''Which hardware firewall feature enables incoming traffic on a specific
 port to reach an IP address on the LAN?
