@@ -11,367 +11,588 @@ class Question:
 
 question_prompts = [
 
-  
-"\nWhat is the port number of HTTP?\n"
+# 0.  
+'''What is the port number of HTTP?
 
-"\n(a) 80\n"
-"\n(b) 60\n"
-"\n(c) 110\n"
-"\n(d) 443\n" 
-"\nAnswer: ",
+(a) 80.
+
+(b) 60.
+
+(c) 110.
+
+(d) 443.
+
+Answer: ''',
 "\n"
 
-"What is the port number of POP3?\n"
-"\n(a) 23\n"
-"\n(b) 50\n"
-"\n(c) 110\n"
-"\n(d) 443\n" 
-"\nAnswer: ",
-"\n"
-
-"How long is an eSATA cable?\n"
-
-"\n(a) 12 inches\n"
-"\n(b) 1 meter\n"
-"\n(c) 2 meters\n"
-"\n(d) 1 foot\n"
-"\nAnswer: ",
-"\n"
-
-"A UEFI functionality designed to prevent the loading of malware & unauthorized\n" \
-"OSs during system start-up is known as:\n"
-
-"\n(a) LoJack\n"
-"\n(b) Secure Boot\n"
-"\n(c) Bitlocker\n"
-"\n(d) Kerberos\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following terms refers to a technology that allows for storing\n" \
-"passwords, certificates, or encription keys in a hardware chip?\n" 
-
-"\n(a) Access Control List(ACL)\n" 
-"\n(b) Encrypting File System (EFS)\n"
-"\n(c) User Account Control (UAC)\n"
-"\n(d) Trusted Platform Module (TPM) \n"
-"\nAnswer: ",
-"\n"
-
-"What is LoJack?\n"
-
-"\n(a) Loopback adapter\n" 
-"\n(b) Security feature used for locating stolen desktops, laptops, or tablets\n" 
-"\n(c) Connector standard\n"
-"\n(d) RJ-11 plug\n"
-"\nAnswer: ",
-"\n"
      
-"Which type of password provides the highest level of permissions in BIOS?\n" 
+# 1.
+'''What is the port number of POP3?
 
-"\n(a) root\n"
-"\n(b) Supervisor\n"
-"\n(c) Administrator\n"
-"\n(d) Power User \n"
-"\nAnswer: ",
-"\n"
+(a) 23.
 
-"Which of the protocols listed below is used for automated discovery of networked\n"
-"services on Local Area Networks (LAN's)? \n"
+(b) 50.
 
-"\n(a) SMB\n"
-"\n(b) AFP\n"
-"\n(c) CIFS\n"
-"\n(d) SLP\n"
-"\nAnswer: ",
-"\n"
+(c) 110.
 
-"Which of the protocols listed below was designed as a secure replacement for\n"
-"Telnet?\n"
+(d) 443.
 
-"\n(a) CHAP\n"
-"\n(b) FTP\n"
-"\n(c) SNMP\n"
-"\n(d) SSH\n"
-"\nAnswer: ",
-"\n"
+Answer: ''',
+'\n'
 
-"Which of the following wireless encryption schemes offers the highest level\n"
-"of protection?\n"
+     
+# 2.
+'''How long is an eSATA cable?
 
-"\n(a) WEP\n"
-"\n(b) WPA2\n"
-"\n(c) WAP\n"
-"\n(d) WPA\n"
-"\nAnswer: ",
-"\n"
+(a) 12 inches.
 
-"What is the most common motherboard type used in desktop PC's?\n"
+(b) 1 meter.
 
-"\n(a) ITX\n"
-"\n(b) LPX\n"
-"\n(c) ATX\n"
-"\n(d) NLX\n"
-"\nAnswer: ",
-"\n"
+(c) 2 meters.
 
-"What is the port number of RDP (Remote Desktop Protocol)?\n"
+(d) 1 foot.
 
-"\n(a) 110\n"
-"\n(b) 443\n"
-"\n(c) 3389\n"
-"\n(d) 67\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the answers listed below refers to a VIA-proprietary low-power\n"
-"consumption SFF type motherboard known for industrial and embedded PC\n"
-"applications?\n"
-
-"\n(a) Mini-ITX\n"
-"\n(b) LPX\n"
-"\n(c) ATX\n"
-"\n(d) NLX\n"
-"\n(e) Mini-ATX\n"
-"\nAnswer: ",
-"\n"
-
-"Peripheral Component Interconnect (PCI) is an example of a parallel\n"
-"expansion bus (and a corresponding slot type) used for attaching hardware\n"
-"devices (in the form of an integrated circuit or expansion card) to the\n"
-"motherboard inside the computer case.\n"
-
-"\n(a) True\n"
-"\n(b) False\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following correctly identifies the four possible entries in a\n"
-"file allocation table?\n"
-
-"\n(a) \n"
-"\n(b) An end-of-file marker, a bad-block marker, code indicating the cluster\n"
-"is available, the number of the cluster where the next part of the file is stored.\n"
-"\n(c) Number of the starting cluster, number of the ending cluster, number\n"
-"of used clusters, number of available clusters.\n"
-"\n(d) Filename, date, time, size.\n"
-"\nAnswer: ",
-"\n"
-
-"In PCIe architecture, a single full-duplex point-to-point serial\n"
-"communication path consisting of two pairs of wires (where one pair\n"
-"is used for transmitting data and the other pair for receiving data)\n"
-"is known as:\n"
-
-"\n(a) Lane\n"
-"\n(b) Dual channel\n"
-"\n(c) Dual rail\n"
-"\n(d) Duplexing assembly\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following integrated circuit types defines the core\n"
-"functionality and capabilities of a motherboard?\n"
-
-"\n(a) Northbridge\n"
-"\n(b) Southbridge\n"
-"\n(c) I/O Controller Hub (ICH)\n"
-"\n(d) Fusion Controller Hub (FCH)\n"
-"\n(e) Chipset\n"
-"\nAnswer: ",
-"\n"
-
-"ExpressCards connect to which two buses?\n"
-
-"\n(a) USB and PCIe's\n"
-"\n(b) ACPI and PCI's\n"
-"\n(c) USB and PCI's\n"
-"\n(d) PCIe and ACPI's\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following display types will you commonly find on a\n"
-"portable PC today?\n"
-
-"\n(a) OLED\n"
-"\n(b) Plasma\n"
-"\n(c) CRT\n"
-"\n(d) LCD\n"
-"\nAnswer: ",
-"\n"
-
-"What type of battery do manufacturers use today for portables?\n"
-
-"\n(a) Nickel-Cadmium (Ni-Cd)\n"
-"\n(b) Lithium-Ion (Li-Ion)\n"
-"\n(c) Nickel-Metal Hydride (Ni-MH)\n"
-"\n(d) Nickel-Lithium (Ni-Li)\n"
-"\nAnswer: ",
-"\n"
-
-"Which two width's do ExpressCards come in?\n"
-
-"\n(a) 24-mm and 54-mm\n"
-"\n(b) 36-mm and 52-mm\n"
-"\n(c) 48-mm and 56-mm\n"
-"\n(d) 34-mm and 54-mm\n"
-"\nAnswer: ",
-"\n"
-
-"Powerful hypervisors like ESXi are often booted from?\n"
-
-"\n(a) USB thumbdrives\n"
-"\n(b) Floppy Disks\n"
-"\n(c) Windows\n"
-"\n(d) Firmware\n"
-"\nAnswer: ",
-"\n"
-
-"Which two features lets you save a VM's state so you can quickly restore\n"
-"to that point?\n"
-
-"\n(a) Save and Snapshot\n"
-"\n(b) Save and Zip\n"
-"\n(c) Checkpoint and Snapshot\n"
-"\n(d) Checkshot and Snappoint\n"
-"\nAnswer: ",
-"\n"
-
-"Which mobile OS enables developers to customize the user experience\n"
-"without restrictions\n?"
-
-"\n(a) Blackberry\n"
-"\n(b) Android\n"
-"\n(c) Windows Phone\n"
-"\n(d) iOS\n"
-"\nAnswer: ",
-"\n"
-
-"Which mobile device screen technology uses no backlight?\n"
-
-"\n(a) BYOD\n"
-"\n(b) LCD\n"
-"\n(c) LED\n"
-"\n(d) OLED\n"
-"\nAnswer: ",
-"\n"
-
-"Using your stored credit card information on your smartphone used which\n"
-"technology to make the transaction?\n"
-
-"\n(a) Wi-Fi calling\n"
-"\n(b) NFC (Near Field Communication)\n"
-"\n(c) BitLocker To Go\n"
-"\n(d) Swipe lock\n"
-"\nAnswer: ",
-"\n"
-
-"Which of the following is a 15-digit number used to uniquly identify\n"
-"a mobile device that connects to a cellular network?\n"
-
-"\n(a) IMSI\n"
-"\n(b) ICCID\n"
-"\n(c) GSM\n"
-"\n(d) IMEI\n"
-"\nAnswer: ",
-"\n"
-
-"Which mobile operating system requires a third-party software firewall?\n"
-
-"\n(a) Windows Mobile\n"
-"\n(b) iOS\n"
-"\n(c) Android\n"
-"\n(d) macOS\n"
-"\nAnswer: ",
-"\n"
-
-"What do app scanners do?\n"
-"\n(a) Scan QR codes for hidden codes\n"
-"\n(b) Analzye Wi-Fi signals to identify evil-twin WAP's\n"
-"\n(c) Analyze the traffic into & out of an application for\n"
-"suspicious behavior\n"
-"\n(d) Analyze the permissions used by installed applications to\n"
-"highlight security risks\n"
-"\nAnswer: ",
-"\n"
-
-"Best way to protect data on a removable media card?\n"
-"\n(a) Format it\n"
-"\n(b) Lock it\n"
-"\n(c) Encrypt it\n"
-"\n(d) Remove it when needed\n"
-"\nAnswer: ",
-"\n"
-
-"Jailbreaking an iPhone gives access to?\n"
-"\n(a) The /bin folder\n"
-"\n(b) The system BIOS\n"
-"\n(c) The root account\n"
-"\n(d) The administrator account\n"
-"\n(e) The user account\n"
-"\nAnswer: ",
-"\n"
+Answer: ''',
+'\n'
 
 
-"What mechanism is used by most inkjet printers to push ink ont\n"
-"the printer?\n"
+# 3.     
+'''A UEFI functionality designed to prevent the loading of malware & unauthorized
+OSs during system start-up is known as:
 
-"\n(a) Print spool\n"
-"\n(b) Electrostatic discharge\n"
-"\n(c) Electroconductive plates\n"
-"\n(d) Printwires\n"
-"\nAnswer: ",
-"\n"
+(a) LoJack.
 
+(b) Secure Boot.
 
-"With a laser printer, what creates the image on the photosensitive\n"
-"drum?\n"
+(c) Bitlocker.
 
-"\n(a) Toner\n"
-"\n(b) Primary corona\n"
-"\n(c) Transfer corona\n"
-"\n(d) Laser imaging unit\n"
-"\nAnswer: ",
-"\n"
+(d) Kerberos.
+
+Answer: ''',
+'\n'
 
 
-"The printer prints a test page with no problem, but it makes a mess\n"
-"when trying to print multiple pages. What's most likely the problem?\n"
+# 4.
+'''Which of the following terms refers to a technology that allows for storing
+passwords, certificates, or encription keys in a hardware chip?
 
-"\n(a) Faulty software configuration\n"
-"\n(b) Out of toner\n"
-"\n(c) Printer interface\n"
-"\n(d) Fuser error\n"
-"\nAnswer: ",
-"\n"
+(a) Access Control List (ACL).
 
-"Which tool would help you determine why a print job didn't print?\n"
+(b) Encrypting File System (EFS).
 
-"\n(a) System setup\n"
-"\n(b) Print spooler\n"
-"\n(c) Printer driver\n"
-"\n(d) Printer setup\n"
-"\nAnswer: ",
-"\n"
+(c) User Account Control (UAC).
 
-"Which of the following might offer good hardware authentication?\n"
+(d) Trusted Platform Module (TPM).
 
-"\n(a) Smart cards\n"
-"\n(b) NTFS\n"
-"\n(c) Encrypted passwords\n"
-"\n(d) Strong passwords\n"
-"\nAnswer: ",
-"\n"
+Answer: ''',
+'\n'
 
-"Which hardware firewall feature enables incoming traffic on a specific\n"
-"port to reach an IP address on the LAN?\n"
+     
+# 5.
+'''What is LoJack?
 
-"\n(a) DMZ\n"
-"\n(b) Trigger port\n"
-"\n(c) Multifactor authentication\n"
-"\n(d) Port forwarding\n"
-"\nAnswer: ",
-"\n"
+(a) Loopback adapter. 
+
+(b) Security feature used for locating stolen desktops, laptops, or tablets.
+
+(c) Connector standard.
+
+(d) RJ-11 plug.
+
+Answer: ''',
+'\n'
+  
+     
+# 6. 
+'''Which type of password provides the highest level of permissions in BIOS?
+
+(a) Root.
+
+(b) Supervisor.
+
+(c) Administrator.
+
+(d) Power User.
+
+Answer: ''',
+'\n'
+
+     
+# 7.     
+'''Which of the protocols listed below is used for automated discovery of networked
+services on Local Area Networks (LAN's)?
+
+(a) SMB.
+
+(b) AFP.
+
+(c) CIFS.
+
+(d) SLP.
+
+Answer: ''',
+'\n'
+
+     
+# 8.     
+'''Which of the protocols listed below was designed as a secure replacement for
+Telnet?
+
+(a) CHAP.
+
+(b) FTP.
+
+(c) SNMP.
+
+(d) SSH.
+
+Answer: ''',
+'\n'
+
+     
+# 9.     
+'''Which of the following wireless encryption schemes offers the highest level
+of protection?
+
+(a) WEP.
+
+(b) WPA2.
+
+(c) WAP.
+
+(d) WPA.
+
+Answer: ''',
+'\n'
+
+     
+# 10     
+'''What is the most common motherboard type used in desktop PC's?
+
+(a) ITX.
+
+(b) LPX.
+
+(c) ATX.
+
+(d) NLX.
+
+Answer: ''',
+'\n'
+
+     
+# 11.     
+'''What is the port number of RDP (Remote Desktop Protocol)?
+
+(a) 110.
+
+(b) 443.
+
+(c) 3389.
+
+(d) 67.
+
+Answer: ''',
+'\n'
+
+     
+# 12     
+'''Which of the answers listed below refers to a VIA-proprietary low-power
+consumption SFF type motherboard known for industrial and embedded PC
+applications?
+
+(a) Mini-ITX.
+
+(b) LPX.
+
+(c) ATX.
+
+(d) NLX.
+
+(e) Mini-ATX.
+
+Answer: ''',
+'\n'
+
+     
+# 13.     
+'''Peripheral Component Interconnect (PCI) is an example of a parallel
+expansion bus (and a corresponding slot type) used for attaching hardware
+devices (in the form of an integrated circuit or expansion card) to the
+motherboard inside the computer case.
+
+(a) True.
+
+(b) False.
+
+Answer: ''',
+'\n'
+
+     
+# 14.     
+'''Which of the following correctly identifies the four possible entries in a
+file allocation table?
+
+(a) Filename, start of cluster, end of cluster, date.
+
+(b) An end-of-file marker, a bad-block marker, code indicating the cluster
+is available, the number of the cluster where the next part of the file is stored.
+
+(c) Number of the starting cluster, number of the ending cluster, number of used 
+clusters, number of available clusters.
+
+(d) Filename, date, time, size.
+
+Answer: ''',
+'\n'
+
+     
+# 15.     
+'''In PCIe architecture, a single full-duplex point-to-point serial communication 
+path consisting of two pairs of wires (where one pair is used for transmitting 
+data and the other pair for receiving data) is known as:
+
+(a) Lane.
+
+(b) Dual channel.
+
+(c) Dual rail.
+
+(d) Duplexing assembly.
+
+Answer: ''',
+'\n'
+
+     
+# 16.     
+'''Which of the following integrated circuit types defines the core functionality 
+and capabilities of a motherboard?
+
+(a) Northbridge.
+
+(b) Southbridge.
+
+(c) I/O Controller Hub (ICH).
+
+(d) Fusion Controller Hub (FCH).
+
+(e) Chipset.
+
+Answer: ''',
+'\n'
+
+     
+# 17.     
+'''ExpressCards connect to which two buses?
+
+(a) USB and PCIe's.
+
+(b) ACPI and PCI's.
+
+(c) USB and PCI's.
+
+(d) PCIe and ACPI's.
+
+Answer: ''',
+'\n'
+
+     
+# 18.     
+'''Which of the following display types will you commonly find on a portable 
+PC today?
+
+(a) OLED.
+
+(b) Plasma.
+
+(c) CRT.
+
+(d) LCD.
+
+Answer: ''',
+'\n'
+
+     
+# 19.     
+'''What type of battery do manufacturers use today for portables?
+
+(a) Nickel-Cadmium (Ni-Cd).
+
+(b) Lithium-Ion (Li-Ion).
+
+(c) Nickel-Metal Hydride (Ni-MH).
+
+(d) Nickel-Lithium (Ni-Li).
+
+Answer: ''',
+'\n'
+
+     
+# 20.     
+'''Which two width's do ExpressCards come in?
+
+(a) 24-mm and 54-mm.
+
+(b) 36-mm and 52-mm.
+
+(c) 48-mm and 56-mm.
+
+(d) 34-mm and 54-mm.
+
+Answer: ''',
+'\n'
+
+     
+# 21.     
+'''Powerful hypervisors like ESXi are often booted from?
+
+(a) USB thumbdrives.
+
+(b) Floppy Disks.
+
+(c) Windows.
+
+(d) Firmware.
+
+Answer: ''',
+'\n'
+
+     
+# 22.     
+'''Which two features lets you save a VM's state so you can quickly restore
+to that point?
+
+(a) Save and Snapshot.
+
+(b) Save and Zip.
+
+(c) Checkpoint and Snapshot.
+
+(d) Checkshot and Snappoint.
+
+Answer: ''',
+'\n'
+
+     
+# 23.     
+'''Which mobile OS enables developers to customize the user experience
+"without restrictions?
+
+(a) Blackberry.
+
+(b) Android.
+
+(c) Windows Phone.
+
+(d) iOS.
+
+Answer: ''',
+'\n'
+
+     
+# 24.
+'''Which mobile device screen technology uses no backlight?
+
+(a) BYOD.
+
+(b) LCD.
+
+(c) LED.
+
+(d) OLED.
+
+Answer: ''',
+'\n'
+
+     
+# 25.     
+'''Using your stored credit card information on your smartphone used which technology 
+to make the transaction?
+
+(a) Wi-Fi calling.
+
+(b) NFC (Near Field Communication).
+
+(c) BitLocker To Go.
+
+(d) Swipe lock.
+
+Answer: ''',
+'\n'
+
+     
+# 26.     
+'''Which of the following is a 15-digit number used to uniquly identify a mobile 
+device that connects to a cellular network?
+
+(a) IMSI.
+
+(b) ICCID.
+
+(c) GSM.
+
+(d) IMEI.
+
+Answer: ''',
+'\n'
+
+     
+# 27.     
+'''Which mobile operating system requires a third-party software firewall?
+
+(a) Windows Mobile.
+
+(b) iOS.
+
+(c) Android.
+
+(d) macOS.
+
+Answer: ''',
+'\n'
+
+     
+# 28.     
+'''What do app scanners do?
+
+(a) Scan QR codes for hidden codes.
+
+(b) Analzye Wi-Fi signals to identify evil-twin WAP's.
+
+(c) Analyze the traffic into & out of an application for
+suspicious behavior.
+
+(d) Analyze the permissions used by installed applications to highlight 
+security risks.
+
+Answer: ''',
+'\n'
+
+     
+# 29.
+'''Best way to protect data on a removable media card?
+
+(a) Format it.
+
+(b) Lock it.
+
+(c) Encrypt it.
+
+(d) Remove it when needed.
+
+Answer: ''',
+'\n'
+
+     
+# 30.     
+'''Jailbreaking an iPhone gives access to?
+
+(a) The /bin folder.
+
+(b) The system BIOS.
+
+(c) The root account.
+
+(d) The administrator account.
+
+(e) The user account.
+
+Answer: ''',
+'\n'
+
+     
+# 31.
+'''What mechanism is used by most inkjet printers to push ink onto
+"the printer?
+
+(a) Print spool.
+
+(b) Electrostatic discharge.
+
+(c) Electroconductive plates.
+
+(d) Printwires.
+
+Answer: ''',
+'\n'
+
+
+# 32.     
+'''With a laser printer, what creates the image on the photosensitive
+"drum?
+
+(a) Toner.
+
+(b) Primary corona.
+
+(c) Transfer corona.
+
+(d) Laser imaging unit.
+
+Answer: ''',
+'\n'
+
+     
+# 33.
+'''The printer prints a test page with no problem, but it makes a mess
+when trying to print multiple pages. What's most likely the problem?
+
+(a) Faulty software configuration.
+
+(b) Out of toner.
+
+(c) Printer interface.
+
+(d) Fuser error.
+
+Answer: ''',
+'\n'
+
+     
+# 34.     
+'''Which tool would help you determine why a print job didn't print?
+
+(a) System setup.
+
+(b) Print spooler.
+
+(c) Printer driver.
+
+(d) Printer setup.
+
+Answer: ''',
+'\n'
+
+     
+# 35.     
+'''Which of the following might offer good hardware authentication?
+
+(a) Smart cards.
+
+(b) NTFS.
+
+(c) Encrypted passwords.
+
+(d) Strong passwords.
+
+Answer: ''',
+'\n'
+
+     
+# 36.     
+'''Which hardware firewall feature enables incoming traffic on a specific
+port to reach an IP address on the LAN?
+
+(a) DMZ.
+
+(b) Trigger port.
+
+(c) Multifactor authentication.
+
+(d) Port forwarding.
+
+Answer: ''',
+"'\n'
 
 "Which of these choices would provide better security on a Wi-Fi router?\n"
 
